@@ -24,7 +24,7 @@ export default function FeaturedProject() {
                     IsMyHawkerOpen
                 </h2>
                 <p className="mt-2 text-violet-100 max-w-[280px]">
-                    Real-time status tracking for Singapore's local food gems. Built with React.
+                    Real-time status tracker for SG hawker centres. Built with React and GovTech's datasets to save you from wasted trips.
                 </p>
             </div>
 
