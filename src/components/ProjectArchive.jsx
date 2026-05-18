@@ -7,6 +7,14 @@ export default function ProjectArchive() {
 
     const projects = [
         {
+            name: "Jio!",
+            desc: "A clean going-out toolkit for Singaporeans. Features a smart bill splitter, GST/Service charge calculator, shared event calendar, and debt tracker.",
+            tech: ["JavaScript", "Supabase", "HTML5 & CSS3"],
+            link: "https://darrion-jio.vercel.app/",
+            github: "https://github.com/darrionkoh/jio",
+            status: "Live"
+        },
+        {
             name: "IsMyHawkerOpen",
             desc: "A real-time status tracker for Singapore's hawker centers using GovTech's datasets.",
             tech: ["React", "Leaflet", "Tailwind"],
@@ -78,7 +86,7 @@ export default function ProjectArchive() {
                             </button>
                         </div>
 
-                        <div className="max-h-[60vh] overflow-y-auto p-6 md:p-8 space-y-4">
+                        <div className="max-h-[60vh] overflow-y-auto p-6 md:p-8 space-y-4 text-left">
                             {projects.map((project, i) => (
                                 <div key={i} className="group p-6 rounded-[1.5rem] border border-zinc-100 hover:border-violet-200 hover:bg-violet-50/20 transition-all duration-300">
                                     <div className="flex justify-between items-start">
